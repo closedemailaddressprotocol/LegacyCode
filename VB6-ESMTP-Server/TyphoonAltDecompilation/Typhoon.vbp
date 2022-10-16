@@ -1,0 +1,41 @@
+Type=Exe
+
+
+UserControl=ToolBtn.ctl
+Form=frmMain.frm
+Form=frmAbout.frm
+Module=modComctl32; modComctl32.bas
+Module=modIIIKey; modIIIKey.bas
+Class=clsDrawPictures; clsDrawPictures.cls
+Module=modMailHelpers; modMailHelpers.bas
+Module=modService; modService.bas
+Module=modSysTray; modSysTray.bas
+Module=modToolTip; modToolTip.bas
+Module=modTyphoon; modTyphoon.bas
+Module=modZlib; modZlib.bas
+Module=modToolBtn; modToolBtn.bas
+
+Startup="Sub Main"
+Name="Typhoon"
+Title="Typhoon Mail Server"
+Description="Typhoon Mail Server"
+HelpFile=""
+HelpContextID="0"
+ExeName32="Typhoon"
+CompilationType=-1 'P-Code
+StartMode=0
+RequireLicenseKey=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+

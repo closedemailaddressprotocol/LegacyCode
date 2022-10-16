@@ -1,0 +1,14 @@
+Type=Exe
+Unattended=-1
+Module=modPOP3Thread; modPOP3Thread.bas
+Module=modWS32; modWS32.bas
+Class=threadPOP3Server; threadPOP3Server.cls
+Startup="(NONE)"
+CompilationType=0
+Description="VbPearl POP3 Server Thread"
+HelpFile=""
+Name="POP3ServerThread"
+Title="POP3ServerThread"
+ExeName32="ThreadPOP3Server"
+VersionCompanyName="vbPearl"
+VersionProductName="POP3ServerThread"

@@ -1,0 +1,14 @@
+Type=Exe
+Unattended=-1
+Module=modWS32; modWS32.bas
+Module=modESMTPServerThread; modESMTPServerThread.bas
+Module=modMailHelpers; modMailHelpers.bas
+Startup="(NONE)"
+CompilationType=0
+Description="VbPearl ESMTP Server Thread"
+HelpFile=""
+Name="ESMTPServerThread"
+Title="ESMTPServerThread"
+ExeName32="ThreadESMTPServer"
+VersionCompanyName="vbPearl"
+VersionProductName="ESMTPServerThread"

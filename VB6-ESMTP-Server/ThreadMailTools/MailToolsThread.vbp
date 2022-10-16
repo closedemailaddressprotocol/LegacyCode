@@ -1,0 +1,14 @@
+Type=Exe
+Unattended=-1
+Module=modMailTools; modMailTools.bas
+Module=modWS32; modWS32.bas
+Class=clsMailTools; clsMailTools.cls
+Startup="(NONE)"
+CompilationType=0
+Description="VbPearl Mail Tools Thread"
+HelpFile=""
+Name="MailToolsThread"
+Title="MailToolsThread"
+ExeName32="ThreadMailTools"
+VersionCompanyName="vbPearl"
+VersionProductName="MailToolsThread"

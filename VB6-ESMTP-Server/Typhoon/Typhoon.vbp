@@ -1,0 +1,27 @@
+Type=Exe
+Form=frmMain.frm
+Form=frmAbout.frm
+Module=modComctl32; modComctl32.bas
+Module=modIIIKey; modIIIKey.bas
+Module=modMailHelpers; modMailHelpers.bas
+Module=modService; modService.bas
+Module=modSysTray; modSysTray.bas
+Module=modToolTip; modToolTip.bas
+Module=modTyphoon; modTyphoon.bas
+Module=modZlib; modZlib.bas
+Module=modToolBtn; modToolBtn.bas
+Class=clsDrawPictures; clsDrawPictures.cls
+UserControl=ToolBtn; ToolBtn.ctl
+Object=##0; 
+
+CompilationType=-1
+Description="Typhoon Mail Server"
+HelpFile=""
+Name="Typhoon"
+Title="Typhoon Mail Server"
+ExeName32="Typhoon"
+VersionCompanyName="P3P Tools Inc."
+VersionLegalCopyright="(c) 2004 P3P Tools Inc."
+VersionComments="Typhoon Mail Server"
+VersionLegalTrademarks="(c) 2004 P3P Tools Inc."
+VersionProductName="Typhoon Mail Server"
