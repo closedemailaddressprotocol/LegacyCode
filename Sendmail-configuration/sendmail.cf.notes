@@ -1,0 +1,21 @@
+# Sendmail.cf 
+# Access list database (for spam stomping)
+Kaccess hash -T<TMPF> -o /etc/mail/access
+
+# Mailer table (overriding domains)
+Kmailertable hash -o /etc/mail/mailertable
+
+# Virtual user table (maps incoming users)
+Kvirtuser hash -o /etc/mail/virtusertable
+
+R<CLOSEDADDR> $*        $#error $@ 5.2.1 $: 550 This recipient has a closed email address you must use an Open Email Address Generator to affect a delivery
+
+
+
+
+# In  /etc/mail/access.txt
+
+# Billing email
+to:billing@calicomail.com       CLOSEDADDR
+to:761355f0f4254f052f14d414f6d3#billing@calicomail.com OK
+</CODE>
